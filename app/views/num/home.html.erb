@@ -1,0 +1,16 @@
+<center>
+<h1 class="home-title">Enter The Number of Days Below</h1><br>
+<div class="todays-date">Today is: <%= Date.today %></div><br><br>
+
+<!-- For for entering the values being used for calculations -->
+<div class="form-div">
+	<%= form_tag("/num/collect_num", method: "post") do %>
+	  <p><span><%= select_tag(:sign, options_for_select(["Add", "Subtract"]), class:"dropdown")%></span>
+			<span><%= number_field_tag(:days, 0, class:"input") %></span>
+	  <span><%= submit_tag("Calculate", class:"calculate-btn") %></span></p>
+	<% end %>
+	<!-- End of the form -->
+<!-- The notice/instruction on how to fill in the days input -->
+	<br><small>NOTE: Negative and non-integer numbers would not work for the days input. Choose "Subtract" instead to indicate negativity.</small>
+</div>
+</center>

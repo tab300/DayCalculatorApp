@@ -1,0 +1,9 @@
+<!-- Main content of the page -->
+<center>
+<p class="output">Today is: <%= Date.today %>.</p>
+<p class="output">If you <b><%= @sign.downcase %></b> <%= @days %> day(s) -- from today:</p>
+<p class="output"> The new date would be <%= @full_date %>, a <%= @week_day.upcase %>.</p>
+
+<!-- Button to return to the home page -->
+<div><%= button_to 'Go Back', root_path, method: :get, class:"go-back-button", id:"bounce_button" %></div>
+</center>

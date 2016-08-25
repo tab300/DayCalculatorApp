@@ -1,0 +1,99 @@
+// Place all the styles related to the num controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.output{
+	font-size: 2em;
+	color: lightseagreen;
+}
+
+.go-back-button{
+	background: lightseagreen;
+	height: 120px;
+	width: 120px;
+	color: white;
+	font-size: 1.5em;
+	border-color: lightseagreen;
+	border-width: thin;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+
+.go-back-button:hover{
+	opacity:0.9;
+	font-size: 1.75em;
+	color: white;
+	height: 150px;
+	width: 150px;
+}
+
+.home-title{
+	font-size: 2.2em;
+	color: lightseagreen;
+}
+
+.todays-date{
+	font-size: 1.25em;
+	font-style: italic;
+	color: lightseagreen;
+}
+
+small{
+	color: red;
+}
+
+.input{
+	height: 50px;
+	width: 400px;
+	border-color: lightseagreen;
+	border-style: solid;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border-width: thin;
+	}
+
+.brand{
+	font-size: 2.5em;
+	color: lightseagreen;
+	float: left;
+	position: fixed;
+	text-decoration: none;
+	margin-top: -150px;
+	margin-left: 10px;
+	font-family: 'Pacifico', cursive;
+}
+
+.brand:hover{
+		text-decoration: none;
+		color: lightseagreen;
+}
+
+.calculate-btn{
+	height: 50px;
+	width: 150px;
+	background: lightseagreen;
+	color: white;
+	font-size: 1.5em;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: lightseagreen;
+	border-width: thin;
+
+}
+
+.calculate-btn:hover{
+	opacity:0.9;
+}
+
+.dropdown{
+	width: 250px;
+	height: 50px;
+	border-color: lightseagreen;
+	border-style: solid;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border-width: thin;
+}
+
+center{
+	margin-top: 150px;
+}
