@@ -3,9 +3,6 @@ Rails.application.routes.draw do
 
   post '/num/collect_num' => 'num#collect_num'
 
-  get '/num/home' => 'num#collect_num'
-
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

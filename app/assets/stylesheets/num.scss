@@ -18,6 +18,10 @@
 	margin-top: 100px;
 }
 
+#drop-bar, #input-bar{
+	appearance: none;
+}
+
 .go-back-button:hover{
 	opacity:0.9;
 	font-size: 1.75em;
