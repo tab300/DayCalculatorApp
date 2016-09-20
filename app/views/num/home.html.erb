@@ -4,7 +4,7 @@
 
 <!-- For for entering the values being used for calculations -->
 <div class="form-div">
-	<%= form_tag("/num/collect_num", method: "post") do %>
+	<%= form_tag("/num/collect_num", method: "get") do %>
 	  <p><span><%= select_tag(:sign, options_for_select(["Add", "Subtract"]), class:"dropdown", id:"drop-bar")%></span>
 			<span><%= number_field_tag(:days, 0, class:"input", id:"input-bar") %></span>
 	  <span><%= submit_tag("Calculate", class:"calculate-btn") %></span></p>
