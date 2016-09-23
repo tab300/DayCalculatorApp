@@ -22,20 +22,20 @@ class NumController < ApplicationController
 
 		# Conditionals to determine which day of the week the @this_day (above) falls into
 		@week_day = if @this_day == 0
-									"Sunday"
-								elsif @this_day == 1
-									"Monday"
-								elsif @this_day == 2
-									"Tuesday"
-								elsif @this_day == 3
-									"Wednesday"
-								elsif @this_day == 4
-									"Thursday"
-								elsif @this_day == 5
-									"Friday"
-								else
-									"Saturday"
-								end
+				  "Sunday"
+			    elsif @this_day == 1
+			          "Monday"
+			    elsif @this_day == 2
+			          "Tuesday"
+			    elsif @this_day == 3
+			          "Wednesday"
+			    elsif @this_day == 4
+			          "Thursday"
+			    elsif @this_day == 5
+			          "Friday"
+			    else
+			          "Saturday"
+			    end
 
 		# Conditionals to specify the operations of @full_date if certain option is chose from the dropdown
 		if @sign == "Add"
