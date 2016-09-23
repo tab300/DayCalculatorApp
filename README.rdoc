@@ -1,4 +1,4 @@
 A simple Ruby on Rails app to calculate dates into the past and future. Check out the trial-run on Heroku at:
 
-https://obscure-earth-46501.herokuapp.com
+https://protected-beach-35146.herokuapp.com/
 
